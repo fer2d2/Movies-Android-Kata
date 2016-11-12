@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class DiskMovieRepository {
+public class DiskMovieRepository implements MovieRepositoryInterface {
 
 
     private Context applicationContext;
